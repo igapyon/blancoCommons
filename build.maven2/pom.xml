@@ -7,7 +7,7 @@
 	<packaging>jar</packaging>
 	<version>2.0.1</version>
 	<name>blanco-commons</name>
-	<url>https://igapyon.github.io/blancofw-maven2/</url>
+	<url>https://igapyon.github.io/blancofw-maven2</url>
 
 	<dependencies>
 		<dependency>
