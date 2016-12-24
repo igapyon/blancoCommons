@@ -30,7 +30,7 @@
 		<repository>
 			<id>deploy-repository</id>
 			<name>deployRepository</name>
-			<url>file:///home/pomegat/git/blancofw-maven2</url>
+			<url>file:///${project.basedir}/../blancofw-maven2</url>
 		</repository>
 	</distributionManagement>
 
@@ -54,7 +54,7 @@
 						</goals>
 						<configuration>
 							<sources>
-								<source>../src/main</source>
+								<source>src/main</source>
 							</sources>
 						</configuration>
 					</execution>
