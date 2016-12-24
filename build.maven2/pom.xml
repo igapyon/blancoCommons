@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>blanco.commons.io</groupId>
-	<artifactId>blancoCommons</artifactId>
+	<artifactId>blanco-commons</artifactId>
 	<packaging>jar</packaging>
 	<version>2.0.1</version>
-	<name>blancocommons</name>
-	<url>http://maven.apache.org</url>
+	<name>blanco-commons</name>
+	<url>https://igapyon.github.io/blancofw-maven2/</url>
 
 	<dependencies>
 		<dependency>
@@ -25,24 +25,11 @@
 		</dependency>
 	</dependencies>
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-jar-plugin</artifactId>
-				<version>3.0.2</version>
-				<configuration>
-					<finalName>${project.name}-${project.version}</finalName>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
-
 	<distributionManagement>
 		<repository>
 			<id>deploy-repository</id>
 			<name>deployRepository</name>
-			<url>file:///home/user1/git/blancofw-maven2</url>
+			<url>file:///home/pomegat/git/blancofw-maven2</url>
 		</repository>
 	</distributionManagement>
 </project>
