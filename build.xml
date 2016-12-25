@@ -57,7 +57,7 @@
 			<src path="src/main/java" />
 			<classpath>
 				<!-- ワイルドカードで一括取り込み -->
-				<fileset dir="lib" includes="*.jar" />
+				<fileset dir="target/lib" includes="*.jar" />
 				<pathelement path="${eclipse.dir}/plugins/org.junit_3.8.2.v20080602-1318/junit.jar" />
 			</classpath>
 			<include name="**/*.java" />
