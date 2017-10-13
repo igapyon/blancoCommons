@@ -4,7 +4,7 @@
     <groupId>jp.igapyon.blanco.commons</groupId>
     <artifactId>blanco-commons</artifactId>
     <packaging>jar</packaging>
-    <version>2.1.1-SNAPSHOT</version>
+    <version>2.1.1</version>
 
     <name>blanco-commons</name>
     <description>blancoCommons is a common library of blanco framework.</description>
